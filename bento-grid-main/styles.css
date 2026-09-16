@@ -1,0 +1,88 @@
+#container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 0.5fr 1fr 1fr 1fr;
+} 
+#box1{
+  background-color: hsl(31, 66%, 93%); grid-row-start: 1; grid-row-end:3;
+}
+#box2{
+  grid-column-start:2;
+  grid-column-end: 4;
+
+}
+#box3{
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start:1;
+  grid-row-end:3;
+}
+#box4{
+  grid-column-start: 1;
+  grid-column-end:2;
+  grid-row-start: 3;
+  grid-row-end: 5;
+}
+img {
+  display: block;
+  max-width: 90%;
+  height: auto;
+}
+#box8{
+  grid-column-start:3;
+  grid-column-end:5;
+  grid-row-start: 3;
+  grid-row-end:3;
+}
+
+ /* <div id = "grid_container" class="container text-center">
+    <div class="row">
+      <div id = "box1" class="col-3 card bg-warning-subtle" style="width: 18rem;">
+
+        <h2>Create and schedule content <div class = "text-primary">quicker.</div></h2>
+        <img src="assets/images/illustration-create-post.webp">
+      </div>
+      <div id = "box2" class="col card">
+        <p>Social Media 10x Faster with AI
+        Over 4,000 5-star reviews</p>
+        <img src="assets/images/illustration-five-stars.webp">
+      </div>
+      <div id = "box3" class="col-3 card">
+        <p>Schedule to social media.</p>
+        
+        <img src="assets/images/illustration-schedule-posts.webp">
+        <p>Optimize post timings to publish content at the perfect time for your audience.</p>
+      </div>
+    </div>
+    <div class ="row d-flex flex-row justify-content-center align-items-center w-[100px]">
+        <div class = "col-3 card">
+          <img class = "card-img-top" src = "assets/images/illustration-multiple-platforms.webp">
+          <p>Manage multiple accounts and platforms.</p>
+        </div>  
+        <div class = "col-3 card">
+          <p>Maintain a consistent posting schedule.</p>
+          <img  src = "assets/images/illustration-consistent-schedule.webp">
+          
+        </div>  
+    </div>
+
+    <div class ="row">
+        <div class = "col-3  card">
+          
+          <p> Write your content using AI.</p>
+          <img  src = "assets/images/illustration-ai-content.webp">
+        </div>  
+        <div class = "col-3  card">
+          <h1>>56%</h1> 
+          <p>faster audience growth</p>
+          <img  src = "assets/images/illustration-audience-growth.webp">
+          
+        </div>  
+        <div class = "col card">
+          
+          <img  src = "assets/images/illustration-grow-followers.webp">
+          <p>Grow followers with non-stop content.</p>
+          
+        </div>  
+    </div>
+  </div>  */
