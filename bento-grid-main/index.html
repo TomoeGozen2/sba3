@@ -17,20 +17,24 @@
   <title>Frontend Mentor | Bento grid</title>
   <link rel="stylesheet" href="styles.css">
   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  <style type="text/tailwindcss">
+  @theme { --font-dm-sans: "DM Sans", sans-serif; }
+</style>
 </head>
-<body>
-<div class = "grid grid-cols-4 grid-rows-4 gap-2 border-2 border-indigo-600">
-   <div class = "font-dm-sans border-2 border-indigo-600 grid col-start-1 col-end-2 row-start-1 row-end-3 ">Create and schedule content 
+<body class="bg-[#f5f5f5] p-8 font-dm-sans">
+<div class = "grid grid-cols-4 grid-rows-4 gap-8 border-2 border-indigo-600">
+   <div class = " rounded-2xl bg-[hsl(31,66%,93%)] p-8 font-dm-sans border-2 border-indigo-600 grid col-start-1 col-end-2 row-start-1 row-end-3 ">Create and schedule content 
     <span class="text-indigo-700">quicker.</span>
     <img class="" src = "assets/images/illustration-create-post.webp">
    </div>
-  <div class = "border-2 border-indigo-600 grid col-start-2 col-end-4 row-start-1 row-end-3" >2</div>
-  <div class = "border-2 border-indigo-600 grid col-start-4 col-end-5 row-start-1 row-end-4" >3</div>
-  <div class = "border-2 border-indigo-600" >4</div>
-  <div class = "border-2 border-indigo-600">5</div>
-  <div class = "border-2 border-indigo-600">6</div>
-  <div class = "border-2 border-indigo-600 grid col-start-3 col-end-5 row-start-4 row-end-5">7</div>
-  <div class = "border-2 border-indigo-600 grid col-start-1 col-end-2 row-start-3 row-end-5">8</div>
+  <div class = "bg-[hsl(256,67%,59%)] rounded-2xl border-2 border-indigo-600 grid col-start-2 col-end-4 row-start-1 row-end-3" >Social Media 10x Faster with AI</div>
+  <div class = "bg-[hsl(254,88%,90%)] rounded-2xl border-2 border-indigo-600 grid col-start-4 col-end-5 row-start-1 row-end-4" >3</div>
+  <div class = "bg-[hsl(0,0%,100%)] rounded-2xl border-2 border-indigo-600" >4</div>
+  <div class = "rounded-2xl border-2 border-indigo-600">5</div>
+  <div class = "rounded-2xl border-2 border-indigo-600">6</div>
+  <div class = "rounded-2xl border-2 border-indigo-600 grid col-start-3 col-end-5 row-start-4 row-end-5">7</div>
+  <div class = "bg-[hsl(39,100%,71%)] rounded-2xl border-2 border-indigo-600 grid col-start-1 col-end-2 row-start-3 row-end-5">8</div>
 </div>
  </body>
 </html>
